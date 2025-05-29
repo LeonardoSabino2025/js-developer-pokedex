@@ -1,0 +1,129 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f8fc;
+  position: relative;
+  min-height: 100vh;
+}
+.content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15rem;
+  height: 15rem;
+  background: url("/assets/imgs/pokeball.svg") no-repeat center center;
+  background-size: 300px;
+  background-position: calc(100% + 50px) -50px;
+  opacity: 0.05;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.content {
+  position: relative;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  z-index: 1;
+}
+
+h1 {
+  color: #333;
+}
+
+.pokemons {
+  display: grid;
+  grid-template-columns: 1fr;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 380px) {
+  .pokemons {
+    grid-template-columns: 1fr;
+  }
+  .content {
+    max-width: 380px;
+    height: auto;
+  }
+}
+/* Para telas médias (ex: tablets) */
+@media screen and (min-width: 576px) {
+  .pokemons {
+    grid-template-columns: 1fr 1fr; /* 2 colunas */
+  }
+  .content {
+    max-width: 576px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
+/* Para telas maiores (ex: notebooks) */
+@media screen and (min-width: 992px) {
+  .pokemons {
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* 4 colunas */
+  }
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
+/* Para telas extra grandes (ex: TVś) */
+@media screen and (min-width: 1200px) {
+  .pokemons {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 5 colunas */
+  }
+  .content {
+    max-width: 1200px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
+
+/* --- FORÇA O TEMA CLARO MESMO NO MODO ESCURO DO SISTEMA --- */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #f6f8fc;
+    color: #333;
+  }
+
+  .content {
+    background-color: #fff;
+    color: #333;
+  }
+
+  h1 {
+    color: #333;
+  }
+}
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.pagination button {
+  background-color: #6c79db;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+  background-color: #5a64b9;
+}
