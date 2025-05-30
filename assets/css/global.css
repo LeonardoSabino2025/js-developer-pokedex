@@ -14,7 +14,7 @@ body {
   right: 0;
   width: 15rem;
   height: 15rem;
-  background: url("/assets/imgs/pokeball.svg") no-repeat center center;
+  background: url("../imgs/pokeball.svg") no-repeat center center;
   background-size: 300px;
   background-position: calc(100% + 50px) -50px;
   opacity: 0.05;
