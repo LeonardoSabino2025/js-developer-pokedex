@@ -15,8 +15,9 @@ ${typesHtml}
             <img
               src="${pokemon.image}"
               alt="${pokemon.name}"></img>
-            
           </div>
+          
+          <div class="pokeball-bg-watermark"></div>
          
         </li>
         `;
