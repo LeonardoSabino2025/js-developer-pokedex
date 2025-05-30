@@ -4,7 +4,7 @@ Este projeto é uma Pokédex desenvolvida em HTML, CSS e JavaScript puro, que co
 
 ## Demonstração
 
-![Imagem da Pokedex](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png)
+![Imagem da Pokedex](../pokedex/assets/imgs/preview.png)
 
 ## Funcionalidades
 
