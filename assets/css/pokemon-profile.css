@@ -180,7 +180,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  opacity: 0.05;
+  opacity: 0.02;
   z-index: 0;
   pointer-events: none;
   transform: rotate(30deg);
