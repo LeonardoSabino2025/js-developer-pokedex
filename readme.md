@@ -9,7 +9,13 @@ Este projeto é uma Pokédex desenvolvida em HTML, CSS e JavaScript puro, que co
 ## Funcionalidades
 
 - Listagem de Pokémons com nome, número, tipos e imagem.
+- Tela de perfil com informações detalhadas sobre cada Pokémon.
 - Botão "Carregar Mais" para paginação progressiva.
+- Abas no perfil do Pokémon com:
+  - Sobre (peso, altura, gênero e habilidades)
+  - Base Stats
+  - Dicas (fraquezas e forças com base no tipo principal)
+- As **habilidades** agora possuem cor de fundo dinâmica baseada no **tipo principal** do Pokémon.
 - Responsividade para diversos tamanhos de tela.
 
 ## Tecnologias Utilizadas
