@@ -30,6 +30,7 @@ Clique [aqui](https://leonardosabino2025.github.io/js-developer-pokedex/)
 - [PokéAPI](https://pokeapi.co/) para os dados dos Pokémons
 - [Normalize.css](https://necolas.github.io/normalize.css/)
 - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto)
+- [Favicon](https://www.svgrepo.com/svg/276264/pokeball-pokemon)
 
 ## Estrutura do Projeto
 
