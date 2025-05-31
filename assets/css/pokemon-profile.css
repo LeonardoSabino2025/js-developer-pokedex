@@ -160,6 +160,7 @@
 .pokemon-profile .detail-info {
   width: 100%;
   background-color: #fff;
+  min-height: 500px;
   border-radius: 1rem;
   padding: 1rem 1.5rem;
   margin-top: 50px;
@@ -176,6 +177,7 @@
   left: -150px;
   width: 500px;
   height: 500px;
+  min-height: 500px;
   background-image: url("../imgs/pokeball.svg");
   background-repeat: no-repeat;
   background-position: center;
