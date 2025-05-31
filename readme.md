@@ -6,6 +6,10 @@ Este projeto é uma Pokédex desenvolvida em HTML, CSS e JavaScript puro, que co
 
 ![Imagem da Pokedex](assets/imgs/preview.png)
 
+## Experimente ao Vivo
+
+Clique [aqui](https://leonardosabino2025.github.io/js-developer-pokedex/)
+
 ## Funcionalidades
 
 - Listagem de Pokémons com nome, número, tipos e imagem.
